@@ -1,0 +1,35 @@
+// admin number System
+
+$admin type 1,23,4
+1 	==> collage number
+23 	==> specialty number
+4 	==> content type number 
+
+if 1 and 23 is zeros=> then its uni mand admin || uni opt admin || uni other admin
+if 12 is zeros=> then its coll mand admin
+else => its sp mand admin || sp opt admin
+
+
+// content files System 
+ inside content/
+ 				course types from 1-6 /
+ 										if 1 => uni mand 					/ course id /content types from 1-7
+ 										if 2 => uni opt 					/ course id /content types from 1-7
+ 										if 3 => coll mand 	/ coll id 		/ course id /content types from 1-7
+ 										if 4 => sp mand 	/ sp id 		/ course id /content types from 1-7
+ 										if 5 => sp opt 		/ sp id 		/ course id /content types from 1-7
+ 										if 6 => uni other 					/ course id /content types from 1-7
+
+
+
+// courses System 
+6 table
+	1 => uni mand  \admin number like '0001'
+	2 => uni opt   \admin number like '0002'
+	3 => coll mand \admin number like '?003' //pk is coll id
+	4 => sp mand   \admin number like '0??4' //pk is sp id
+	5 => sp opt    \admin number like '0??5' //pk is sp id
+	6 => uni other \admin number like '0006'
+
+
+//
