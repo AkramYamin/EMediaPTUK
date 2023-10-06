@@ -1,8 +1,8 @@
 <?php
 
-	$servername = "xxakram9736145.ipagemysql.com";
-	$username = "akramyamin";
-	$password = "2511997";
+	$servername = "";
+	$username = "";
+	$password = "";
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=edumedia", $username, $password);
